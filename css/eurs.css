@@ -23,7 +23,11 @@
 #mainNav .navbar-brand {
   color: #161616;
   font-weight: 700;
-  padding: 0.9rem 0;
+  padding: 0;
+}
+
+#mainNav .navbar-brand img {
+  height: 50px;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
@@ -55,7 +59,7 @@
     -webkit-transition: none;
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: #fff;
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -116,37 +120,19 @@
 }
 
 .masthead h1 {
-  font-family: "Nunito";
-  font-size: 2.5rem;
-  line-height: 2.5rem;
-  letter-spacing: 0.8rem;
+  font-family: "Times";
+  font-size:2em;
 }
 
 .masthead h2 {
-  max-width: 20rem;
+  max-width: 40rem;
   font-size: 1rem;
-}
-
-@media (min-width: 768px) {
-  .masthead h1 {
-    font-size: 4rem;
-    line-height: 4rem;
-  }
 }
 
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
     padding: 0;
-  }
-  .masthead h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
-    letter-spacing: 0.8rem;
-  }
-  .masthead h2 {
-    max-width: 30rem;
-    font-size: 1.25rem;
   }
 }
 
@@ -222,7 +208,7 @@
 
 @media (min-width: 992px) {
   .concerts-section .concert-text {
-    padding: 5rem;
+    padding: 2rem;
   }
   .concerts-section .concert-text hr {
     border-color: #b00020;
